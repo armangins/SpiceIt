@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: black;
+    height: 500px;
+
+    .icon-box {
+        display: flex;
+        justify-content: center;
+
+        .cta-icon {
+            width: 20%;
+        }
+    }
+
+    .title-box{
+        .white-title{
+            color: whitesmoke;
+            font-size: 34px;
+        }
+    }
+}
