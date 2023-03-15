@@ -1,30 +1,50 @@
+$main-color: #ED7400;
+$secondary-color: #ff6200;
+$black-color: #0D0D18;
+
+
 .primary-button {
+    
     color: black;
-    width: 200px;
-    background-color: rgb(221, 163, 29);
-    padding: 10px 10px;
-    border-radius: 10px;
-    border: rgb(221, 163, 29);
-    font-weight: 400;
-    font-size: 18px;
-    color: whitesmoke;
-    font-family: 'Fredoka', sans-serif;
-    height: 50px;
+    font-weight: 600;
+    font-size: 25px;
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    font-family: 'Fredoka', sans-serif;
+    color: whitesmoke;
+    min-width:300px;
+    width: auto;
+    border: none;
+    padding: 25px 50px 25px 50px;
+    background-color:$main-color;
+    transition: background-color 0.8s ease;
+    transition:color .8s ease;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    
+    }
+
+.primary-button:hover{
+    background-color: $secondary-color;
+    color:$black-color;
+
 }
 
-.secondary-button {
-    color: rgb(221, 163, 29);
-    box-sizing: border-box;
-    border: 2px solid rgb(221, 163, 29);
-    background-color: whitesmoke;
-    padding: 10px 100px;
-    border-radius: 10px;
-    font-weight: 400;
-    font-size: 18px;
-    font-family: 'Fredoka', sans-serif;
-    height: 50px;
+
+.secondary-button{
+
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    font-family: 'Fredoka', sans-serif;
+    color: whitesmoke;
+    min-width:300px;
+    width: auto;
+    border: none;
+    padding: 25px 50px 25px 50px;
+    background-color:$black-color;
+    transition: background-color 0.8s ease;
+    transition:color .8s ease;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+
 }
+

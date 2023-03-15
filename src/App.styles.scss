@@ -3,9 +3,32 @@
 // }
 
 *{
-    line-height: 20px;
+    line-height: 1em;
+    font-family: 'Noto Sans Hebrew', sans-serif;
 }
 
-h2{
-    margin: 5px;
+h1{
+    font-size: 60px;
+}
+
+h2,h4,h3{
+    margin: 15px 0 10px 0;
+    line-height: 1.1em;
+}
+
+p{
+    font-size: 18px;
+    font-family: 'Noto Sans Hebrew', sans-serif;
+    font-weight: 300;
+    line-height: 25px;
+
+}
+
+.slide-box{
+
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
 }

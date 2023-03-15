@@ -15,7 +15,10 @@ const App = () => {
      <CategoriesLayout></CategoriesLayout>
       <Section></Section>
       <CallToAction></CallToAction>
+      <div  className="slide-box">
       <Slider></Slider>
+      </div>
+ 
      </div>
     </div>
   );

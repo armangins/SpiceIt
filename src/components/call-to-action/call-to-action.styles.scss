@@ -1,13 +1,19 @@
 .container {
+    border: 2px solid red;
+    box-sizing: border-box;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 10% 0 20%;
     align-items: center;
     width: 100%;
-    background: black;
-    height: 500px;
+    background-image: url('../../assets/Cta.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
 
     .icon-box {
+        border: 2px solid blue;
         display: flex;
         justify-content: center;
 
@@ -17,9 +23,15 @@
     }
 
     .title-box{
+               
+                padding-left:50%;
+                text-align: right;
+                
+
         .white-title{
             color: whitesmoke;
             font-size: 34px;
+            font-size: 60px;
         }
     }
 }

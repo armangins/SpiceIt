@@ -7,15 +7,15 @@ const CallToAction = () => {
 
     return (
         <div className="container">
-            <div className="icon-box">
-                <img className="cta-icon" src={CtaIcon} alt="" />
-            </div>
+        
             <div className="title-box">
                 <h3 className="white-title">
                 רכשו היום קבלו היום משולחים מהירים לכל רחבי הארץ
+                מבחר תבלינים חליתות וצמחי מרפא
                 </h3>
+                <Button class="secondary-button" text="לחנות שלנו" ></Button>
+
             </div>
-            <Button class="primary-button" text="לחנות שלנו" ></Button>
         </div>
     )
 }

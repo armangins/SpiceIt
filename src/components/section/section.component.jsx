@@ -2,12 +2,13 @@ import React from "react";
 import "./section.styles.scss";
 import Button from "../button/button.component";
 import AboutImage from '../../assets/about.jpg'
+import Title from "./../title/title.component"
 
 const Section = () => {
   return (
     <div className="section-container">
       <div className="content">
-        <h2>מה אנחנו</h2>
+        <Title  align="right" text="מי אנחנו"></Title>
         <h4 className="">הסיפור שלנו</h4>
         <p>
           לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית נולום ארווס סאפיאן
@@ -24,7 +25,7 @@ const Section = () => {
           בלוף קינץ תתיח לרעח. לת צשחמי צש בליא, מנסוטו צמלח לביקו ננבי, צמוקו
           בלוקריה שיצמה ברורק.
         </p>
-        <Button class="secondary-button" text='עוד עלינו' ></Button>
+        <Button  class="primary-button" text='עוד עלינו' ></Button>
       </div>
       <div className="image-container">
         <img className="about-image" src={AboutImage} alt="" />

@@ -1,28 +1,25 @@
 .categories-container {
+    margin: 5% 0 5% 0;
 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 2% 10% 2% 10%;
-    box-sizing: border-box;
+    .categories-items-container {
 
-}
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 2% 10% 2% 10%;
+        box-sizing: border-box;
 
-h2.section-title {
+    }
 
-    margin-top: 5%;
-    font-size: 45px;
-    line-height: 5px;
-    text-align: center;
-    color: rgb(131, 20, 8);
-    
-}
+    h3.small-title {
 
-h3.small-title {
-    text-align: center;
-    line-height: 25px;
-    padding-left: 30%;
-    padding-right: 30%;
-    font-size: 18px;
-    font-weight: 200;
+        text-align: center;
+        line-height: 25px;
+        padding-left: 30%;
+        padding-right: 30%;
+        font-size: 24px;
+        font-weight: 200;
+        
+    }
+
 }
