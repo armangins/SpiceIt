@@ -69,7 +69,7 @@ const CategoriesLayout = (props) => {
             <div className="categories-container">
                 {categories.map((category) => {
                     return (
-                      <CategoryItem size="30%" data={category}></CategoryItem>
+                      <CategoryItem key={category.id} size="30%" data={category}></CategoryItem>
                     )
                 })}
             </div>

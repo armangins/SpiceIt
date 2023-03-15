@@ -11,7 +11,7 @@ const Hero = () => {
                 <h1 className="hero-title">מבצעים מיוחדים על כל המוצרים</h1>
                 <h3 className="sub-title">מגוון רחב של תבלינים במחירים משתלמים במיוחד</h3>
                 <h4 >הצטרפו אלינו</h4>
-                <Button class="primary-button" text=",לחנות התבלינים"></Button>
+                <Button size={350} class="primary-button" text=",לחנות התבלינים"></Button>
             </div>
 
             <div className="container-logo">

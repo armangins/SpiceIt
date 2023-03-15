@@ -1,13 +1,14 @@
 import React from "react";
 import './button.styles.scss'
+import Button from '@mui/material/Button';
 
-const Button = (props)=>{
+const Btn = (props) => {
 
     return (
-        <button  type="button" className={props.class}>
+        <Button sx={{ width: props.size }} variant="contained" size="large">
             {props.text}
-        </button>
+        </Button>
     )
 }
 
-export default Button
+export default Btn
