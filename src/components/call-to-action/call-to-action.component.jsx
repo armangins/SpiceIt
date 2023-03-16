@@ -8,8 +8,8 @@ const CallToAction = () => {
     return (
         <div className="container">
         
-            <div className="title-box">
-                <h3 className="white-title">
+            <div className="title_box">
+                <h3 className="white_title">
                 רכשו היום קבלו היום משולחים מהירים לכל רחבי הארץ
                 מבחר תבלינים חליתות וצמחי מרפא
                 </h3>

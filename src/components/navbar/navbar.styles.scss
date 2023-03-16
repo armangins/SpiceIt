@@ -1,115 +1,31 @@
-$main-color: #ED7400;
-$secondary-color: #ff6200;
-$black-color: #0D0D18;
-$secondary-bg:#DADBD5;
+$main-orange: #ED7400;
+$secondary-orange: #ff6200;
+$dark: #0D0D18;
+$secondary-bg: #DADBD5;
+$light-orange: #EBD9C2;
+$dark-green: #194C47;
+$text-font-size:18px;
 
+.navbar_container {
 
-
-
-
-
-
-.navbar-container {
-
-    background-color:$main-color;
+    background-color: $main-orange;
     height: 90px;
     max-width: 100%;
-    padding:0.5% 5% 0.5% 5%;
+    padding: 0.5% 5% 0.5% 5%;
     display: flex;
     justify-content: center;
     flex-direction: row;
-    
 
-    .navbar-items {
+    .navbar_items {
+
         width: 100%;
         display: flex;
         flex-direction: row;
 
-        .navbar-icons{
-
-            display: flex;
-            flex:5%;
-
-            .icons-list{
-    
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                padding-left: 10px;
-                padding-right: 10px;
-
-                .icon-list-item{
-
-                    display: inline;
-                    padding-left: 10px;
-                    padding-right: 10px;
-
-
-                    .navbar-icon-image{
-                        width: 20px;
-                    }
-                 
-                }
-               
-            }
-            
-        }
-        
     }
-
-    .navbar-links{
-
-        display: flex;
-        flex-direction: row;
-        flex:90%;
-        justify-content: end;
-        align-items: center;
-        font-family: 'Fredoka', sans-serif;
-       
-
-
-        .link-item {
-
-            justify-content: center;
-            align-items: center;
-            display: inline;
-            padding: 20px;
-
-            a.link{
-
-                font-size: 18px;
-                font-weight: 300;
-                text-decoration: none;
-                color: whitesmoke;
-            
-            }
-            
-        
-        }
-    
-    }
-  
-
 }
 
-
-.logo-container {
+.logo_container {
     display: flex;
-    flex:5%;
+    flex: 5%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

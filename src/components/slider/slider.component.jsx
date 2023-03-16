@@ -19,34 +19,37 @@ const ProductsSlider = () => {
   };
 
   return (
-  <div>
-   <Title text="Our Specials "></Title>
-    <Slider className="slider-container" {...settings}>
-      {products.map(({ title, description, productImage, price }) => {
-        return (
-          <div class="product-card">
-            <div class="badge">Hot</div>
-            <div class="product-tumb">
-              <img className="product-img" src={productImage} alt="" />
-            </div>
-            <div class="product-details">
-              {/* <span class="product-catagory">Women,bag</span> */}
-              <h4 className="product-title">{title}</h4>
-              <p className="product-description">{description}</p>
-              <div class="product-bottom-details">
-                <div class="product-price">
-                  <small></small>₪ {price}
-                </div>
-                <div class="product-buttons">
-                  <FontAwesomeIcon icon={faCartArrowDown}/>
+    <div className="slider_container">
+      <Title text="Our Specials "></Title>
+      <Slider  {...settings}>
+        {products.map(({ title, description, productImage, price }) => {
+          return (
+            <div class="product_card">
+              <div class="badge">Hot</div>
+              <div class="product_tumb">
+                <img className="product_img" src={productImage} alt="" />
+              </div>
+              <div class="product_details">
+                {/* <span class="product-catagory">Women,bag</span> */}
+                <h4 className="product_title">{title}</h4>
+                <p className="product_description">{description}</p>
+                <div class="product_bottom_details">
+                  <div class="product_price">
+                    <span className="unit">
+                      <small>לק"ג/₪</small>
+                    </span>
+                    <span className="pricing">{price}</span>
+                  </div>
+                  <div class="product_buttons">
+                    <FontAwesomeIcon icon={faCartArrowDown} />
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        );
-      })}
-    </Slider>
-  </div>
+          );
+        })}
+      </Slider>
+    </div>
   );
 };
 export default ProductsSlider;

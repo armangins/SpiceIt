@@ -5,13 +5,13 @@ const CategoryItem = (props) => {
   const { id, title, icon, img } = props.data;
 
   return (
-    <div>
+    <div className="d">
       <div
         key={id}
         style={{ backgroundImage: `url(${img})` }}
-        className="single-category"
+        className="single_category"
       ></div>
-      <h4 className="category-title">{title}</h4>
+      <h4 className="category_title">{title}</h4>
     </div>
   );
 };

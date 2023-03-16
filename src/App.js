@@ -5,6 +5,7 @@ import CategoriesLayout from "./components/categories/categories-layout.componen
 import Section from "./components/section/section.component";
 import CallToAction from "./components/call-to-action/call-to-action.component";
 import Slider from "./components/slider/slider.component";
+import Footer from "./components/footer/footer.component";
 
 const App = () => {
   return (
@@ -13,13 +14,14 @@ const App = () => {
       <Hero></Hero>
      <div className="main-container">
      <CategoriesLayout></CategoriesLayout>
+     <Slider></Slider>
       <Section></Section>
       <CallToAction></CallToAction>
-      <div  className="slide-box">
-      <Slider></Slider>
+      <div  className="">
+   
       </div>
- 
      </div>
+     <Footer></Footer>
     </div>
   );
 };

@@ -1,59 +1,53 @@
-.card-container{
-        
+$light-text-color: rgb(109, 109, 109);
 
-       
-    .card {
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-        transition: 0.3s;
-        margin: 10px 0 10px 0;
-        width: 95%;
-        padding: 20px 0 30px 0;
-        border-radius: 25px;
-        display: flex;
-        flex-direction: column;
-        
+.card_container {
 
-        .button-container{
-            display: flex;
-            justify-content: end;
-        }
-        
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin: 10px 0 10px 0;
+    width: 95%;
+    padding: 20px 0 30px 0;
+    display: flex;
+    flex-direction: column;
 
-        .card-img-container{
+    .button_container {
+      display: flex;
+      justify-content: end;
+    }
 
-            display:flex;
-            justify-content: center;
+    .card_img_container {
+      display: flex;
+      justify-content: center;
 
-            img{
-                width: 80%;
-                object-fit: cover;
-             }
-        }
-
-        .card-content{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: end;
-            padding: 0px 20px 0 20px;
-            P{
-                text-align: right;
-                font-size: 14px;
-                color: rgb(109, 109, 109);
-                
-            }
-        }
-        
+      img.card_img {
+        width: 80%;
+        object-fit: cover;
       }
-    
+    }
+
+    .card_content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: end;
+      padding: 0px 20px 0 20px;
+
+      P {
+        text-align: right;
+        font-size: 14px;
+        color: $light-text-color ;
+      }
+    }
+  }
 }
 
 
-  
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
-  .container {
-    padding: 2px 16px;
-  }
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}

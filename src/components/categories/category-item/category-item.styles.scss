@@ -3,8 +3,11 @@ $secondary-color: #ff6200;
 $black-color: #0D0D18;
 $secondary-bg:#DADBD5;
 
+.d{
+    transition: transform .5s; /* Animation */
+}
 
-.single-category {
+.single_category {
 
     box-sizing: border-box;
     margin: 5px;
@@ -21,7 +24,11 @@ $secondary-bg:#DADBD5;
 }
 
 
-.category-title {
+.d:hover{
+    transform: scale(1.1);
+}
+
+.category_title {
 
     text-align: center;
     display: flex;

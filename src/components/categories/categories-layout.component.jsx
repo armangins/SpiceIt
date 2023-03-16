@@ -6,12 +6,9 @@ import { categories } from "../../assets/data";
 
 const CategoriesLayout = (props) => {
   return (
-    <div className="categories-container">
+    <div className="categories_container">
       <Title showDecoration={true} align="center" text="קטגוריות"></Title>
-      {/* <h3 className="small-title">
-        מבחר תבלינים לכל הצרכים במצעים מיוחדים מחליתות תה ועד לתיבלון בשרים ועוד
-      </h3> */}
-      <div className="categories-items-container">
+      <div className="categories_items_container">
         {categories.map((category) => {
           return (
             <CategoryItem key={category.id} data={category}></CategoryItem>

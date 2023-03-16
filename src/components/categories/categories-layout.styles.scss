@@ -1,32 +1,19 @@
 
+$secondary-bg: #DADBD5;
 
-
-.categories-container {
-    background: #DADBD5;
+.categories_container {
+    background: $secondary-bg;
     align-items: center;
-    
-    padding-bottom: 5%;
+    padding: 5%;
 
-    .categories-items-container {
+    .categories_items_container {
 
         display: flex;
+        gap: 50px;
         justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
         padding: 2% 10% 2% 10%;
         box-sizing: border-box;
-
     }
-
-    h3.small-title {
-
-        text-align: center;
-        line-height: 25px;
-        padding-left: 30%;
-        padding-right: 30%;
-        font-size: 24px;
-        font-weight: 200;
-        
-    }
-
 }

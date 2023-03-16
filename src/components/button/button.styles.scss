@@ -1,11 +1,17 @@
-$main-color: #ED7400;
-$secondary-color: #ff6200;
-$black-color: #0D0D18;
+$main-orange: #ED7400;
+$secondary-orange: #ff6200;
+$dark: #0D0D18;
+$secondary-bg: #DADBD5;
+$light-orange: #EBD9C2;
+$dark-green: #194C47;
+$text-font-size:18px;
 
 
 .primary-button {
     
     color: black;
+    margin: 20px 0;
+
     font-weight: 600;
     font-size: 25px;
     cursor: pointer;
@@ -15,7 +21,7 @@ $black-color: #0D0D18;
     width: auto;
     border: none;
     padding: 25px 50px 25px 50px;
-    background-color:$main-color;
+    background-color:$main-orange;
     transition: background-color 0.8s ease;
     transition:color .8s ease;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
@@ -23,8 +29,8 @@ $black-color: #0D0D18;
     }
 
 .primary-button:hover{
-    background-color: $secondary-color;
-    color:$black-color;
+    background-color: $secondary-orange;
+    color:$dark;
 
 }
 
@@ -32,6 +38,7 @@ $black-color: #0D0D18;
 .secondary-button{
 
     color: white;
+    margin: 20px 0;
     font-weight: 600;
     font-size: 25px;
     cursor: pointer;
@@ -41,7 +48,7 @@ $black-color: #0D0D18;
     width: auto;
     border: none;
     padding: 25px 50px 25px 50px;
-    background-color:$black-color;
+    background-color:$dark-green;
     transition: background-color 0.8s ease;
     transition:color .8s ease;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;

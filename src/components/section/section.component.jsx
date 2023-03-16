@@ -1,15 +1,15 @@
 import React from "react";
 import "./section.styles.scss";
 import Button from "../button/button.component";
-import AboutImage from '../../assets/about.jpg'
-import Title from "./../title/title.component"
+import AboutImage from "../../assets/about.png";
+import Title from "./../title/title.component";
 
 const Section = () => {
   return (
-    <div className="section-container">
+    <div className="section_container">
       <div className="content">
-        <Title  align="right" text="מי אנחנו"></Title>
-        <h4 className="">הסיפור שלנו</h4>
+        {/* <Title  align="right" text="מי אנחנו"></Title> */}
+        <h4 className="about_title">הסיפור שלנו</h4>
         <p>
           לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית נולום ארווס סאפיאן
           - פוסיליס קוויס, אקווזמן קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר,
@@ -25,10 +25,10 @@ const Section = () => {
           בלוף קינץ תתיח לרעח. לת צשחמי צש בליא, מנסוטו צמלח לביקו ננבי, צמוקו
           בלוקריה שיצמה ברורק.
         </p>
-        <Button  class="primary-button" text='עוד עלינו' ></Button>
+        <Button class="primary-button" text="עוד עלינו"></Button>
       </div>
-      <div className="image-container">
-        <img className="about-image" src={AboutImage} alt="" />
+      <div className="image_container">
+        <img className="about_image" src={AboutImage} alt="" />
       </div>
     </div>
   );

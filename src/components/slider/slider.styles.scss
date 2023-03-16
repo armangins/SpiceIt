@@ -1,47 +1,69 @@
-.slider-container {
-    margin-top: 5%;
-    margin-bottom: 10%;
-    padding: 0 auto;
+$main-color: #ED7400;
+$secondary-color: #ff6200;
+$black-color: #0D0D18;
+$secondary-button: #194C47;
+
+
+.slider_container {
+    background-color: #ebe9e7;
     height: auto;
-    
-    .product-card {
+    padding: 5% 10%;
+
+    .product_card {
         box-sizing: border-box;
-        border: 1px solid rgb(216, 216, 216);
         border-radius: 20px;
-        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-                margin: 20px 10px 40px 5px;
-        .product-tumb {
+        margin: 20px 10px 40px 5px;
+
+        .product_tumb {
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
             height: fit-content;
-            .product-img {
+
+            .product_img {
                 width: 100%;
                 object-fit: cover;
             }
         }
 
-        .product-details{
-            padding: 0px 30px 20px 30px;
+        .product_details {
+            padding: 0px 0px 20px 30px;
             text-align: right;
-       
-            p.product-description{
+
+
+            p.product_description {
                 font-weight: 200;
             }
 
-            .product-title{
-                font-weight: 400;
+            .product_title {
+                font-weight: 800;
                 font-size: 20px;
+                color: $secondary-button;
             }
 
-            .product-bottom-details{
+            .product_bottom_details {
 
-             
-
-                .product-buttons{
+                .product_buttons {
                     padding-top: 10px;
                 }
 
-                .product-price{
+                .product_price {
+
+                    display: flex;
+                    flex-direction: row-reverse;
                     font-weight: 500;
                     font-size: 18px;
+
+                    .pricing {
+                        padding-left: 5px;
+                        order: 1;
+                        font-size: 18px;
+                        font-weight: 800;
+                    }
+
+                    .unit {
+                        order: 2;
+                        color: gray;
+                    }
                 }
 
             }
@@ -52,10 +74,6 @@
 }
 
 
-
-
-
-
 .slick-slide {
     margin: 0 20px;
     width: 345px;
@@ -63,25 +81,26 @@
 }
 
 .slick-prev {
-    
+
     color: black !important;
     left: 2% !important;
     z-index: 1;
     left: -3rem !important;
     top: 50% !important;
 
-  }
-  .slick-next {
-   
+}
+
+.slick-next {
+
     right: -3rem !important;
     z-index: 1;
     top: 50% !important;
-  }
+}
 
 
-  .slick-prev:before,
+.slick-prev:before,
 .slick-next:before {
-  color: black !important;
-  font-size: 35px !important;
- 
+    color: black !important;
+    font-size: 35px !important;
+
 }

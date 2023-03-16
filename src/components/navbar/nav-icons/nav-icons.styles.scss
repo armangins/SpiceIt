@@ -1,0 +1,26 @@
+
+.navbar_icons {
+
+    display: flex;
+    flex: 5%;
+
+    .icons_list {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        .icon_list_item {
+
+            display: inline;
+            padding-left: 10px;
+            padding-right: 10px;
+
+            .navbar_icon_image {
+                width: 20px;
+            }
+        }
+    }
+}
