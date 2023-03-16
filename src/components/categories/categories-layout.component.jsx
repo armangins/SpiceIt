@@ -7,21 +7,14 @@ import { categories } from "../../assets/data";
 const CategoriesLayout = (props) => {
   return (
     <div className="categories-container">
-      <div className="">
-        <Title showDecoration={true} align="center" text="קטגוריות"></Title>
-        <h3 className="small-title">
-          מבחר תבלינים לכל הצרכים במצעים מיוחדים מחליתות תה ועד לתיבלון בשרים
-          ועוד{" "}
-        </h3>
-      </div>
+      <Title showDecoration={true} align="center" text="קטגוריות"></Title>
+      {/* <h3 className="small-title">
+        מבחר תבלינים לכל הצרכים במצעים מיוחדים מחליתות תה ועד לתיבלון בשרים ועוד
+      </h3> */}
       <div className="categories-items-container">
         {categories.map((category) => {
           return (
-            <CategoryItem
-              key={category.id}
-              size="30%"
-              data={category}
-            ></CategoryItem>
+            <CategoryItem key={category.id} data={category}></CategoryItem>
           );
         })}
       </div>

@@ -1,9 +1,16 @@
+
+
+
 .categories-container {
-    margin: 5% 0 5% 0;
+    background: #DADBD5;
+    align-items: center;
+    
+    padding-bottom: 5%;
 
     .categories-items-container {
 
         display: flex;
+        justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
         padding: 2% 10% 2% 10%;
