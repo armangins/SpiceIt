@@ -1,27 +1,23 @@
 $main-orange: #ED7400;
-$secondary-orange: #ff6200;
-$dark: #0D0D18;
-$secondary-bg: #DADBD5;
-$light-orange: #EBD9C2;
 $dark-green: #194C47;
-$text-font-size:18px;
+$text-font-size: 18px;
+$dark: #0D0D18;
 
 .navbar_container {
-
-    background-color: $main-orange;
+    width: 100%;
+    background-color: $dark;
     height: 90px;
     max-width: 100%;
-    padding: 0.5% 5% 0.5% 5%;
+    position:fixed;
     display: flex;
-    justify-content: center;
-    flex-direction: row;
+ 
 
     .navbar_items {
-
+        
+        padding-right: 5%;
         width: 100%;
         display: flex;
         flex-direction: row;
-
     }
 }
 

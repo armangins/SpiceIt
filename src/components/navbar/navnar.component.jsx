@@ -7,7 +7,8 @@ const Navbar = () => {
   const menu = [{}];
 
   return (
-    <div className="navbar_container">
+
+      <div className="navbar_container">
       <div className="navbar_items">
         <NavIcons></NavIcons>
         <NavLinks></NavLinks>
@@ -16,6 +17,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
+
   );
 };
 
