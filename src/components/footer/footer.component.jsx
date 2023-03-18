@@ -2,7 +2,35 @@ import React from "react";
 import "./footer.styles.scss";
 import Logo from "../../logo.png";
 import CardsIcons from "../../icons/cards.png";
-import NavLinks from "../navbar/nav-item/nav-links.component";
+import FooterItem from "../footer/footer-item/footer-item.component";
+
+const menusItems = [
+  {
+    id: 775464,
+    title: "ראשי",
+  },
+
+  {
+    id: 77542,
+    title: "אודות",
+  },
+
+  {
+    id: 7751464,
+    title: "החנות התבלינים  ",
+  },
+
+  {
+    id: 77364,
+    title: "קטגוריות",
+  },
+
+  {
+    id: 7777364,
+
+    title: "צור קשר",
+  },
+];
 
 const Footer = () => {
   return (
@@ -10,21 +38,14 @@ const Footer = () => {
       <div className="footer_item logo">
         <img src={Logo} alt="" />
       </div>
-      <div className="footer_item links">
-        <div className="footer_title">
-          <h4>תפריט</h4>
-          <NavLinks direction="column" display="flex"></NavLinks>
-        </div>
-
-        <div className="footer_title">
-          <h4>תפריט</h4>
-          <NavLinks direction="column" display="flex"></NavLinks>
-        </div>
-
-        <div className="footer_title">
-          <h4>תפריט</h4>
-          <NavLinks direction="column" display="flex"></NavLinks>
-        </div>
+      <div className="footer_items">
+        <FooterItem menusItems={menusItems} />
+      </div>
+      <div className="footer_items">
+        <FooterItem menusItems={menusItems} />
+      </div>
+      <div className="footer_items">
+        <FooterItem menusItems={menusItems} />
       </div>
 
       <div className="footer_item icons">

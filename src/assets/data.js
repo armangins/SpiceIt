@@ -14,6 +14,7 @@ import MixtureIcon from "../icons/saltpeper.png"
 export const products = [
 
     {
+        id:1,
         title: 'מלח גס',
         description: 'פלפל שחור מובחר לכל הסוגי צרכי התיבול',
         productImage: PepperImage,
@@ -21,6 +22,7 @@ export const products = [
     },
 
     {
+        id:2,
         title: 'פריקה אדומה',
         description: 'פלפל שחור מובחר לכל הסוגי צרכי הבישול',
         productImage: PepperImage,
@@ -28,12 +30,14 @@ export const products = [
     },
 
     {
+        id:3,
         title: 'כמון',
         description: 'פלפל שחור מובחר לכל הסוגי צרכי הבישול',
         productImage: PepperImage,
         price:"12.90"
     },
     {
+        id:4,
         title: "פפריקה אדומה",
         description: 'פלפל שחור מובחר לכל הסוגי צרכי הבישול',
         productImage: PepperImage,
@@ -41,6 +45,7 @@ export const products = [
     },
 
     {
+        id:5,
         title: "גריל עוף",
         description: 'פלפל שחור מובחר לכל הסוגי צרכי הבישול',
         productImage: PepperImage,
@@ -48,6 +53,7 @@ export const products = [
     },
 
     {
+        id:6,
         title: "כורכום",
         description: 'פלפל שחור מובחר לכל הסוגי צרכי הבישול',
         productImage: PepperImage,
@@ -55,6 +61,7 @@ export const products = [
     },
 
     {
+        id:6,
         title: "קינמון",
         description: 'פלפל שחור מובחר לכל הסוגי צרכי הבישול',
         productImage: PepperImage,
@@ -62,6 +69,7 @@ export const products = [
     },
 
     {
+        id:8,
         title: "אורגנו",
         description: 'פלפל שחור מובחר לכל הסוגי צרכי הבישול',
         productImage: PepperImage,
@@ -70,6 +78,7 @@ export const products = [
 
 
     {
+        id:9,
         title: "סומק",
         description: 'פלפל שחור מובחר לכל הסוגי צרכי הבישול',
         productImage: PepperImage,
@@ -78,6 +87,7 @@ export const products = [
 
 
     {
+        id:10,
         title: "מלח לימון",
         description: 'פלפל שחור מובחר לכל הסוגי צרכי הבישול',
         productImage: PepperImage,

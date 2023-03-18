@@ -1,53 +1,62 @@
-$light-text-color: rgb(109, 109, 109);
+$secondary-button: #194C47;
+.product_card {
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin: 20px 10px 40px 5px;
 
-.card_container {
+  .product_tumb {
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    margin: 10px 0 10px 0;
-    width: 95%;
-    padding: 20px 0 30px 0;
-    display: flex;
-    flex-direction: column;
+      height: fit-content;
 
-    .button_container {
-      display: flex;
-      justify-content: end;
-    }
-
-    .card_img_container {
-      display: flex;
-      justify-content: center;
-
-      img.card_img {
-        width: 80%;
-        object-fit: cover;
+      .product_img {
+          width: 100%;
+          object-fit: cover;
       }
-    }
-
-    .card_content {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: end;
-      padding: 0px 20px 0 20px;
-
-      P {
-        text-align: right;
-        font-size: 14px;
-        color: $light-text-color ;
-      }
-    }
   }
-}
+
+  .product_details {
+      padding: 0px 0px 20px 30px;
+      text-align: right;
 
 
+      p.product_description {
+          font-weight: 200;
+      }
 
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
+      .product_title {
+          font-weight: 800;
+          font-size: 20px;
+          color: $secondary-button;
+      }
 
-.container {
-  padding: 2px 16px;
+      .product_bottom_details {
+
+          .product_buttons {
+              padding-top: 10px;
+          }
+
+          .product_price {
+
+              display: flex;
+              flex-direction: row-reverse;
+              font-weight: 500;
+              font-size: 18px;
+
+              .pricing {
+                  padding-left: 5px;
+                  order: 1;
+                  font-size: 18px;
+                  font-weight: 800;
+              }
+
+              .unit {
+                  order: 2;
+                  color: gray;
+              }
+          }
+
+      }
+
+  }
 }

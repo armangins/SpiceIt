@@ -9,68 +9,6 @@ $secondary-button: #194C47;
     height: auto;
     padding: 5% 10%;
 
-    .product_card {
-        box-sizing: border-box;
-        border-radius: 20px;
-        margin: 20px 10px 40px 5px;
-
-        .product_tumb {
-            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-
-            height: fit-content;
-
-            .product_img {
-                width: 100%;
-                object-fit: cover;
-            }
-        }
-
-        .product_details {
-            padding: 0px 0px 20px 30px;
-            text-align: right;
-
-
-            p.product_description {
-                font-weight: 200;
-            }
-
-            .product_title {
-                font-weight: 800;
-                font-size: 20px;
-                color: $secondary-button;
-            }
-
-            .product_bottom_details {
-
-                .product_buttons {
-                    padding-top: 10px;
-                }
-
-                .product_price {
-
-                    display: flex;
-                    flex-direction: row-reverse;
-                    font-weight: 500;
-                    font-size: 18px;
-
-                    .pricing {
-                        padding-left: 5px;
-                        order: 1;
-                        font-size: 18px;
-                        font-weight: 800;
-                    }
-
-                    .unit {
-                        order: 2;
-                        color: gray;
-                    }
-                }
-
-            }
-
-        }
-    }
-
 }
 
 
