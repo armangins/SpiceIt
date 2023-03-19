@@ -1,63 +1,57 @@
-$primary-color: #ED7400;
+$primary-color: #ed7400;
 $primary-dark: #ff6200;
-$black: #0D0D18;
-$secondary-bg: #DADBD5;
-$light-orange: #EBD9C2;
-$dark-green: #194C47;
+$black: #0d0d18;
+$secondary-bg: #dadbd5;
+$light-orange: #ebd9c2;
+$dark-green: #194c47;
 $text-font-size: 18px;
 
 .primary-button {
-
-    font-weight: 400;
-    font-size: 25px;
-    cursor: pointer;
-    color: whitesmoke;
-    min-width: 300px;
-    width: auto;
-    border: none;
-    padding: 20px 50px 20px 50px;
-    background-color: $primary-color;
-    transition: background-color 0.8s ease;
-    transition: color .8s ease;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-
+  font-weight: 400;
+  font-size: 25px;
+  cursor: pointer;
+  color: whitesmoke;
+  min-width: 300px;
+  width: auto;
+  border: none;
+  padding: 20px 50px 20px 50px;
+  background-color: $primary-color;
+  transition: background-color 0.8s ease;
+  transition: color 0.8s ease;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
 .primary-button:hover {
-    background-color: $primary-dark;
-    color: $black;
+  background-color: $primary-dark;
+  color: $black;
 }
-
 
 .secondary-button {
-
-    margin: 20px 0;
-    font-weight: 400;
-    font-size: 25px;
-    cursor: pointer;
-    background-color: $dark-green;
-    color: whitesmoke;
-    min-width: 300px;
-    width: auto;
-    border: none;
-    padding: 25px 50px 25px 50px;
-    background-color: $black;
-    transition: background-color 0.8s ease;
-    transition: color .8s ease;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
-
+  margin: 20px 0;
+  font-weight: 400;
+  font-size: 25px;
+  cursor: pointer;
+  background-color: $dark-green;
+  color: whitesmoke;
+  min-width: 300px;
+  width: auto;
+  border: none;
+  padding: 25px 50px 25px 50px;
+  background-color: $black;
+  transition: background-color 0.8s ease;
+  transition: color 0.8s ease;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
-
 @media only screen and (max-width: 1440px) and (min-width: 769px) {
+  .primary-button {
+    font-size: 18px;
+  }
 
-    .primary-button {
-        font-size: 18px;
-    }
-
-    .secondary-button {
-        background-color: $dark-green;
-        font-size: 18px;
-    }
-
+  .secondary-button {
+    background-color: $dark-green;
+    font-size: 18px;
+  }
 }

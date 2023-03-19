@@ -2,7 +2,6 @@ import React from "react";
 import "./card.styles.scss";
 
 const Card = (props) => {
-
   const { product } = props;
 
   return (

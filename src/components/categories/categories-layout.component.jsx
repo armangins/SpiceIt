@@ -7,18 +7,11 @@ import { categories } from "../../assets/data";
 const CategoriesLayout = () => {
   return (
     <div className="categories_container">
-      <Title showDecoration={true}
-        align="center"
-        text="קטגוריות"
-      />
+      <Title showDecoration={true} align="center" text="קטגוריות" />
       <div className="categories_items_container">
+        {/* iterate  through  the categories */}
         {categories.map((category) => {
-          return (
-            <CategoryItem
-              key={category.id}
-              data={category}
-            />
-          );
+          return <CategoryItem key={category.id} data={category} />;
         })}
       </div>
     </div>

@@ -8,35 +8,33 @@ import Card from "../card/card.component";
 import { Navigation } from "swiper";
 import "swiper/css/navigation";
 import Title from "../title/title.component";
-import { Autoplay, } from "swiper";
-
-
+import { Autoplay } from "swiper";
 
 const Carousel = () => {
   return (
-<div   className="carousel">
-  <Title text="מבצעי החודש"/>
-<Swiper
-      slidesPerView={5}
-      spaceBetween={20}
-      loop={true}
-      autoplay={{
-        delay: 2500,
-        disableOnInteraction: false,
-      }}
-      navigation={true} modules={[Navigation,Autoplay,Pagination]}
-     
-    
-    >
-      {products.map((product) => {
-        return (
-          <SwiperSlide>
-            <Card product={product} />
-          </SwiperSlide>
-        );
-      })}
-    </Swiper>
-</div>
+    <div className="carousel">
+      <Title text="מבצעי החודש" />
+      <Swiper
+        slidesPerView={5}
+        spaceBetween={20}
+        loop={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        navigation={true}
+        modules={[Navigation, Autoplay, Pagination]}
+      >
+        {/*iterate  through the product to and create slider cards */}
+        {products.map((product) => {
+          return (
+            <SwiperSlide>
+              <Card product={product} />
+            </SwiperSlide>
+          );
+        })}
+      </Swiper>
+    </div>
   );
 };
 

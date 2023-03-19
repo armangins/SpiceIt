@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.styles.scss";
 import Logo from "../../logo.png";
-import CardsIcons from "../../icons/cards.png";
+import CardsIcons from "../../assets/icons/cards.png";
 import FooterItem from "../footer/footer-item/footer-item.component";
 
 const menusItems = [

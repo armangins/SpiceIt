@@ -11,16 +11,14 @@ const NavLinkes = (props) => {
 
   const linkStyles = {
     padding: linksGap,
-  }
+  };
 
   return (
     <div className="navbar_links">
       <ul style={styles}>
         {menusItems.map(({ title, id }) => {
           return (
-            <li style={linkStyles}
-              key={id}
-              className="link_item">
+            <li style={linkStyles} key={id} className="link_item">
               <a className="link" href="">
                 {title}
               </a>
