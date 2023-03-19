@@ -2,7 +2,6 @@ $main-color: #ED7400;
 $secondary-color: #ff6200;
 $black-color: #0D0D18;
 
-
 .title-container{
 
     display: flex;
@@ -11,7 +10,7 @@ $black-color: #0D0D18;
     align-items: center;
 
     .section-title{
-        padding: 20px;
+        padding-bottom: 50px;
         font-size: 42px;
         color: $secondary-color;
     }

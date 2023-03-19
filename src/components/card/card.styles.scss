@@ -2,13 +2,9 @@ $secondary-button: #194C47;
 .product_card {
   box-sizing: border-box;
   border-radius: 20px;
-  margin: 20px 10px 40px 5px;
 
   .product_tumb {
       box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-
-      height: fit-content;
-
       .product_img {
           width: 100%;
           object-fit: cover;
@@ -22,6 +18,7 @@ $secondary-button: #194C47;
 
       p.product_description {
           font-weight: 200;
+          font-size: 18px;
       }
 
       .product_title {
@@ -41,12 +38,12 @@ $secondary-button: #194C47;
               display: flex;
               flex-direction: row-reverse;
               font-weight: 500;
-              font-size: 18px;
+              font-size: 16px;
 
               .pricing {
                   padding-left: 5px;
                   order: 1;
-                  font-size: 18px;
+                  font-size: 16px;
                   font-weight: 800;
               }
 
@@ -59,4 +56,18 @@ $secondary-button: #194C47;
       }
 
   }
+}
+
+
+
+@media only screen and (max-width: 1440px) and (min-width: 769px)  {
+
+    .product_card {
+
+        margin: 0px;
+
+
+    }
+ 
+
 }

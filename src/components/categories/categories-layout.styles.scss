@@ -1,19 +1,17 @@
-
-$secondary-bg: #DADBD5;
+$secondary-orange: #fceadf;
 
 .categories_container {
-    background: $secondary-bg;
+    background: $secondary-orange;
     align-items: center;
     padding: 5%;
 
     .categories_items_container {
 
         display: flex;
-        gap: 50px;
+        gap: 4%;
         justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
-        padding: 2% 10% 2% 10%;
         box-sizing: border-box;
     }
 }

@@ -7,6 +7,9 @@ $light-orange: #EBD9C2;
 $dark-green: #194C47;
 $link-font-size: 18px;
 $link-font-weight: 200;
+$main-color: #ED7400;
+$secondary-color: #ff6200;
+$black_tone: #000201;
 
 *{
     line-height: 1em;
@@ -22,6 +25,7 @@ h1{
 h2,h4,h3{
     margin: 15px 0 10px 0;
     line-height: 1.1em;
+    font-family: 'Noto Sans Hebrew', sans-serif;
 }
 
 p{

@@ -2,7 +2,7 @@ import React from "react";
 import "./card.styles.scss";
 
 const Card = (props) => {
-  console.log(props.product);
+
   const { product } = props;
 
   return (
@@ -18,7 +18,7 @@ const Card = (props) => {
           <div className="product_bottom_details">
             <div className="product_price">
               <span className="unit">
-                <small>לק"ג/₪</small>
+                <small>לק"ג/</small>
               </span>
               <span className="pricing">₪{product.price}</span>
             </div>

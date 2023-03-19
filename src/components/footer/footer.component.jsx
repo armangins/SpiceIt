@@ -36,7 +36,7 @@ const Footer = () => {
   return (
     <div className="footer_container">
       <div className="footer_item logo">
-        <img src={Logo} alt="" />
+        <img className="logo-img" src={Logo} alt="" />
       </div>
       <div className="footer_items">
         <FooterItem menusItems={menusItems} />

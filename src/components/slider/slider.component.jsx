@@ -8,13 +8,28 @@ import Title from "../title/title.component";
 import Card from "../card/card.component";
 
 const ProductsSlider = () => {
-  var settings = {
+  const settings = {
     variableWidth: true,
     arrows: true,
     infinite: true,
-    speed: 700,
+    speed: 900,
     slidesToShow: 4,
-    slidesToScroll: 1,
+    slidesToScroll: 2,
+
+    responsive:[
+      {
+        breakpoint:1440,
+        settings:{
+    
+          arrows: true,
+          infinite: true,
+          speed: 700,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+      
+        }
+      }
+    ]
   };
 
   return (

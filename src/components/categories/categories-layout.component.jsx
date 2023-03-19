@@ -4,14 +4,20 @@ import CategoryItem from "./category-item/category-item.compoment";
 import Title from "../title/title.component";
 import { categories } from "../../assets/data";
 
-const CategoriesLayout = (props) => {
+const CategoriesLayout = () => {
   return (
     <div className="categories_container">
-      <Title showDecoration={true} align="center" text="קטגוריות"></Title>
+      <Title showDecoration={true}
+        align="center"
+        text="קטגוריות"
+      />
       <div className="categories_items_container">
         {categories.map((category) => {
           return (
-            <CategoryItem key={category.id} data={category}></CategoryItem>
+            <CategoryItem
+              key={category.id}
+              data={category}
+            />
           );
         })}
       </div>

@@ -8,15 +8,15 @@ const Hero = () => {
     <div className="hero_container">
       <div className="hero_content">
         <h1 className="hero_title">מבצעים מיוחדים על כל המוצרים</h1>
-        <h3 className="sub_title">
+        <p className="sub_title">
           מגוון רחב של תבלינים במחירים משתלמים במיוחד מזמנים היום מקבלים היום משלחוים מהירים מהיום להיום
           מגוון רחב של תבלינים במחירים משתלמים במיוחד מזמנים היום מקבלים היום משלחוים מהירים מהיום להיום
 
-        </h3>
+        </p>
         <Button
           size={350}
           class="primary-button"
-          text=",לחנות התבלינים"
+          text="לחנות התבלינים"
         ></Button>
       </div>
 
