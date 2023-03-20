@@ -1,33 +1,31 @@
-$dark-green: #194C47;
-$dark: #0D0D18;
-$main-orange: #ED7400;
+$dark-green: #194c47;
+$dark: #0d0d18;
+$main-orange: #ed7400;
 
 .navbar_icons {
-    background-color: $main-orange;
+
+
+  background-color: $main-orange;
+  display: flex;
+  flex: 20%;
+  padding-right: 40px;
+
+  .icons_list {
     display: flex;
-    flex: 5%;
+    align-items: center;
+    width: 100%;
 
-    .icons_list {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-left: 10px;
-        padding-right: 50px;
-        margin-left: 30px;
-        width: 100%;
-
-        .icon_list_item {
-            display: inline;
-            padding-left: 10px;
-            padding-right: 10px;
-            display: flex;
-            align-items: center;
-            width: 150px;
-
-            .navbar_icon_image {
-                color: $dark;
-                width: 20px;
-            }
-        }
+    .icon_list_item {
+        padding: 0px;
+      display: flex;
+      align-items: center;
+      width: 100%;
+      font-size: 18px;
+      font-weight: 300;
+      .navbar_icon_image {
+        color: $dark;
+        width: 20px;
+      }
     }
+  }
 }

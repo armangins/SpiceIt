@@ -19,6 +19,7 @@ const Title = (props) => {
         </div>
       ) : null}
       <h2 style={styleSettings} className="section-title">
+       
         {text}
       </h2>
       {showDecoration ? (

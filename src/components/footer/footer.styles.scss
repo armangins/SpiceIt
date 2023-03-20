@@ -1,42 +1,40 @@
-$main-color: #ED7400;
+$main-color: #ed7400;
 $secondary-color: #ff6200;
-$dark-tone: #0D0D18;
-$mid-tone: #194C47;
-$light-orange: #EBD9C2;
+$black_tone: #000201;
+$mid-tone: #194c47;
+$light-orange: #ebd9c2;
 
 .footer_container {
+  padding: 2.5% 2%;
+  background-color: $black_tone;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
 
-    padding-left: 10%;
-    padding-right: 10%;
-    box-sizing: border-box;
-    height: auto;
-    width: 100%;
-    background-color: $mid-tone;
+  .footer_items {
     display: flex;
     flex-direction: row-reverse;
+    text-align: right;
+    flex: 20%;
+    height: 100%;
+    width: 100%;
+  }
+
+  img.logo-img {
+    width: 70%;
+  }
+
+  .icons {
+    justify-content: center;
     align-items: center;
+    display: flex;
 
-    .footer_items {
-
-        display: flex;
-        flex-direction: row-reverse;
-        text-align: right;
-        width: 100%;
-        height: 100%;
-        width: 100%;
+    .cards-icons {
+      width: 150px;
     }
 
-    .logo {
-
-        flex: 30%;
-    }
-
-    .icons {
-
-        .cards-icons{
-            width: 150px;
-        }
-
-        flex: 30%;
-    }
+    flex: 30%;
+  }
 }

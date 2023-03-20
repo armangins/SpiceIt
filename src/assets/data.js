@@ -5,11 +5,11 @@ import Healing from "./healing.png";
 import Herbs from "./herbs.png";
 import Meat from "./meat.png";
 
-import HerbIcon from "../icons/healing-herb.png";
-import FoodIcon from "../icons/food.png";
-import TeaIcon from "../icons/tea.png";
-import SpiceIcon from "../icons/spices.png";
-import MixtureIcon from "../icons/saltpeper.png"
+import HerbIcon from "./icons/healing-herb.png";
+import FoodIcon from "./icons/food.png";
+import TeaIcon from "./icons/tea.png";
+import SpiceIcon from "./icons/spices.png";
+import MixtureIcon from "./icons/saltpeper.png"
 
 export const products = [
 

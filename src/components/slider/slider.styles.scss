@@ -5,7 +5,7 @@ $secondary-button: #194C47;
 
 
 .slider_container {
-    background-color: #ebe9e7;
+    background-color: white;
     height: auto;
     padding: 5% 10%;
 
@@ -41,4 +41,22 @@ $secondary-button: #194C47;
     color: black !important;
     font-size: 35px !important;
 
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 769px)  {
+
+
+    .slider_container {
+    background-color: white;
+    height: auto;
+
+
+}
+
+.slick-slide {
+    // margin: 0 20px;
+    width: 230px;
+    height: auto;
+}
+  
 }

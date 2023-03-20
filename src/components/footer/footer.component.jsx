@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.styles.scss";
 import Logo from "../../logo.png";
-import CardsIcons from "../../icons/cards.png";
+import CardsIcons from "../../assets/icons/cards.png";
 import FooterItem from "../footer/footer-item/footer-item.component";
 
 const menusItems = [
@@ -36,7 +36,7 @@ const Footer = () => {
   return (
     <div className="footer_container">
       <div className="footer_item logo">
-        <img src={Logo} alt="" />
+        <img className="logo-img" src={Logo} alt="" />
       </div>
       <div className="footer_items">
         <FooterItem menusItems={menusItems} />
