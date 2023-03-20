@@ -1,5 +1,6 @@
 import React from "react";
 import "./nav-links.styles.scss";
+import {Link} from "react-router-dom";
 
 const NavLinkes = (props) => {
   const { direction, display, menusItems, linksGap } = props;
@@ -16,12 +17,13 @@ const NavLinkes = (props) => {
   return (
     <div className="navbar_links">
       <ul style={styles}>
-        {menusItems.map(({ title, id }) => {
+        {menusItems.map(({ title, id ,url}) => {
           return (
             <li style={linkStyles} key={id} className="link_item">
-              <a className="link" href="">
+              <Link key={id} to={url}  className="link">{title}</Link>
+              {/* <a className="link" href="">
                 {title}
-              </a>
+              </a> */}
             </li>
           );
         })}

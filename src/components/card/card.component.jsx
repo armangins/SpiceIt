@@ -6,7 +6,7 @@ const Card = (props) => {
 
   return (
     <div>
-      <div className="product_card">
+      <div key={product.id} className="product_card">
         <div className="badge"></div>
         <div className="product_tumb">
           <img className="product_img" src={product.productImage} alt="" />

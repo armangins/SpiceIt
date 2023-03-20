@@ -1,4 +1,4 @@
-$secondary-button: #194C47;
+$green_tone: #194C47;
 .product_card {
   box-sizing: border-box;
   border-radius: 20px;
@@ -17,14 +17,15 @@ $secondary-button: #194C47;
 
 
       p.product_description {
-          font-weight: 200;
+          font-weight: 300;
           font-size: 18px;
+          color: $green_tone;
       }
 
       .product_title {
           font-weight: 800;
           font-size: 20px;
-          color: $secondary-button;
+          color: $green_tone;
       }
 
       .product_bottom_details {
@@ -39,6 +40,7 @@ $secondary-button: #194C47;
               flex-direction: row-reverse;
               font-weight: 500;
               font-size: 16px;
+              color: $green_tone;
 
               .pricing {
                   padding-left: 5px;

@@ -28,8 +28,8 @@ const Carousel = () => {
         {/*iterate  through the product to and create slider cards */}
         {products.map((product) => {
           return (
-            <SwiperSlide>
-              <Card product={product} />
+            <SwiperSlide >
+              <Card  product={product} />
             </SwiperSlide>
           );
         })}

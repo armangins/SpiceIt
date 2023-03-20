@@ -9,27 +9,32 @@ const Navbar = () => {
     {
       id: 775464,
       title: "ראשי",
+      url:"/",
     },
 
     {
       id: 77542,
       title: "אודות",
+      url:"/about",
     },
 
     {
       id: 7751464,
       title: "החנות התבלינים  ",
+      url:"/store",
     },
 
     {
       id: 77364,
       title: "קטגוריות",
+      url:"categories",
     },
 
     {
       id: 7777364,
 
       title: "צור קשר",
+      url:"/contact-us",
     },
   ];
 
