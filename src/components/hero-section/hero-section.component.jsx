@@ -1,4 +1,4 @@
-gitimport React from "react";
+import React from "react";
 import "./hero-section.styles.scss";
 import Logo from "../../logo.png";
 import Button from "../button/button.component";

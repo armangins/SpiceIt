@@ -3,6 +3,7 @@ import "./navbar.styles.scss";
 import Logo from "../../logo.png";
 import NavActionButton from "../navbar/navbar-action-buttons/nav-icons.component";
 import NavLinks from "../navbar/nav-item/nav-links.component";
+import {Link} from "react-router-dom";
 
 const Navbar = () => {
   const menusItems = [
@@ -44,7 +45,9 @@ const Navbar = () => {
         <NavActionButton></NavActionButton>
         <NavLinks menusItems={menusItems}></NavLinks>
         <div className="logo_container">
-          <img className="logo" src={Logo} alt="" />
+       <Link to="/">
+       <img className="logo" src={Logo} alt="" />
+       </Link>
         </div>
       </div>
     </div>

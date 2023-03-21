@@ -5,11 +5,10 @@ import CartIcon from "../../../assets/icons/cart.png";
 
 const NavIcons = () => {
   return (
-    <div className="navbar_icons">
+    <div className="navbar_icons_container">
       <ul className="icons_list">
         <li className="icon_list_item cart_total">
-          <a>
-            {" "}
+          <a className="icon_link">
             <small>₪</small> הסל שלי: 40
           </a>
           <a href="">
@@ -18,7 +17,7 @@ const NavIcons = () => {
         </li>
         <li className="icon_list_item">
           <a>התחברות/הרשמה</a>
-          <a href="">
+          <a className="icon_link" href="">
             <img className="navbar_icon_image" src={UserIcon} alt="user_icon" />
           </a>
         </li>

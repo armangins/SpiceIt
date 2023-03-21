@@ -1,31 +1,45 @@
 $dark-green: #194c47;
 $dark: #0d0d18;
 $main-orange: #ed7400;
+$light-orange: #ebd9c2;
 
-.navbar_icons {
-
-
-  background-color: $main-orange;
+.navbar_icons_container {
+  color: white;
   display: flex;
-  flex: 20%;
-  padding-right: 40px;
 
-  .icons_list {
+
+  ul.icons_list {
     display: flex;
     align-items: center;
     width: 100%;
 
+    .cart_total{
+      // background-color:$main-orange;
+      margin: 0px !important;
+    }
+
     .icon_list_item {
-        padding: 0px;
+      padding:10px;
       display: flex;
       align-items: center;
       width: 100%;
       font-size: 18px;
       font-weight: 300;
+
       .navbar_icon_image {
         color: $dark;
         width: 20px;
       }
+
+      .icon_link{
+        padding:10px;
+      }
     }
   }
+}
+
+@media screen and (min-width: 1400px) {
+  // .navbar_icons {
+  //   flex: 10%;
+  // }
 }
