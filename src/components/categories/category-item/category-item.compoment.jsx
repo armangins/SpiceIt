@@ -3,7 +3,7 @@ import "./category-item.styles.scss";
 
 const CategoryItem = (props) => {
   const { id, title, img } = props.data;
-  
+
   return (
     <div className="d">
       <div

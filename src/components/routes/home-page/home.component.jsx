@@ -5,6 +5,7 @@ import Section from "../../section/section.component";
 import CallToAction from "../../call-to-action/call-to-action.component";
 import Carousel from "../../carousel/carousel.component";
 
+
 const HomePage = () => {
   return (
     <div className="App">

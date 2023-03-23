@@ -3,7 +3,7 @@ import NavBar from "../navbar/navnar.component";
 import {Outlet} from "react-router-dom";
 import Footer from "../footer/footer.component";
 
-const LayOut = () => {
+const Layout = () => {
   return (
     <Fragment>
       <NavBar />
@@ -13,4 +13,4 @@ const LayOut = () => {
   );
 };
 
-export default LayOut;
+export default Layout;

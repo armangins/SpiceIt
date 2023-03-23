@@ -1,3 +1,4 @@
+
 import React from "react";
 import "./navbar.styles.scss";
 import Logo from "../../logo.png";
@@ -6,6 +7,7 @@ import NavLinks from "../navbar/nav-item/nav-links.component";
 import {Link} from "react-router-dom";
 
 const Navbar = () => {
+
   const menusItems = [
     {
       id: 775464,
@@ -14,21 +16,21 @@ const Navbar = () => {
     },
 
     {
-      id: 77542,
-      title: "אודות",
-      url:"/about",
-    },
-
-    {
       id: 7751464,
       title: "החנות התבלינים  ",
-      url:"/store",
+      url:"/auth",
     },
 
     {
       id: 77364,
       title: "קטגוריות",
       url:"categories",
+    },
+
+    {
+      id: 77542,
+      title: "שאלות ותשובות",
+      url:"/about",
     },
 
     {

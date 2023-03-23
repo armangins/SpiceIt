@@ -2,14 +2,15 @@ $black_tone: #000201;
 
 .navbar_container {
 
-  padding:0 100px;
+  // padding-left: 10%;
+  // padding-right: 10%;
   width: 100%;
   background-color: $black_tone;
   height: 85px;
-  max-width: 100%;
+  
   position: fixed;
   display: flex;
-  z-index: 10;
+  z-index: 0;
 
   .navbar_items {
     width: 100%;
