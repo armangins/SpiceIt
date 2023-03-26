@@ -2,72 +2,101 @@
   background-image: url("../../../assets/signin_bg.png");
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 20%;
-  padding-bottom: 20%;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 15% 10% 10% 10%;
   display: flex;
-  height: 100vw;
   justify-content: space-evenly;
   align-items: center;
   height: auto;
-  border: 2px solid red;
+
+  .form_warpper {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    background-color: white;
+    padding: 35px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+      rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+      rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  }
 
   .form_col {
 
-    h2.signin_title{
-        text-align: right;
-        font-size: 45px;
-        color: #1A4C47;
-   
+    p{
+      font-weight: 200;
     }
-    // border: 2px solid yellow;
+    width: 90%;
+    height: auto;
+    box-sizing: border-box;
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+    h2.signin_title {
+      font-size: 34px;
+      color: #1a4c47;
+    }
+
     form.signin {
-      .button_group{
+      .button_group {
+        margin-top: 20px;
         display: flex;
         flex-direction: column;
         gap: 10px;
-        button.signin_google{
+        button.signin_google {
           padding: 20px 50px 20px 50px;
           font-weight: 400;
           font-size: 25px;
           background-color: rgb(0, 92, 220);
+          cursor: pointer;
           color: white;
-          font-family: 'Noto Sans Hebrew', sans-serif;
-          border: 0px;
+          font-family: "Noto Sans Hebrew", sans-serif;
+          border: 1px solid white;
+         
         }
+        button.signin_google:hover{
+          border: 1px  solid rgb(0, 92, 220) ;
+          background-color: white;
+          color: rgb(0, 92, 220) ;
+        
+        }
+
       }
       width: 100%;
+      box-sizing: border-box;
       text-align: right;
       display: flex;
       flex-direction: column;
-      gap: 20px;
-      .form_input{
-        background-color: transparent;
-        width: 300px;
+      gap: 15px;
+      .form_input {
+        text-align: right;
+        font-size: 18px;
         border-top: 0px;
         border-left: 0px;
         border-right: 0px;
         border-bottom: 1px solid rgb(193, 193, 193);
         border-radius: 5px;
-        
+      }
+      input.form_input:focus{
+       outline: none;
+
       }
     }
   }
 }
 
-
 @media only screen and (max-width: 1440px) and (min-width: 769px) {
   form.signin {
-    .button_group{
-      button.signin_google{
+    .button_group {
+      button.signin_google {
         font-size: 18px !important;
-       .google_icon{
-        object-fit: fill;
-
-       }
+        .google_icon {
+          object-fit: fill;
+        }
       }
     }
   }
-
 }

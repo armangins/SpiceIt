@@ -2,6 +2,7 @@ import React from "react";
 import "./nav-icons.styles.scss";
 import UserIcon from "../../../assets/icons/user-icon.png";
 import CartIcon from "../../../assets/icons/cart.png";
+import { Link } from "react-router-dom";
 
 const NavIcons = () => {
   return (
@@ -16,10 +17,10 @@ const NavIcons = () => {
           </a>
         </li>
         <li className="icon_list_item">
-          <a>התחברות/הרשמה</a>
-          <a className="icon_link" href="">
+          <Link to="/auth" className="icon_link">
+            התחברות/הרשמה
             <img className="navbar_icon_image" src={UserIcon} alt="user_icon" />
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

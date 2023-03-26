@@ -21,7 +21,6 @@ const NavLinkes = (props) => {
           return (
             <li style={linkStyles} key={id} className="link_item">
               <Link key={id} to={url}  className="link">{title}</Link>
-         
             </li>
           );
         })}
